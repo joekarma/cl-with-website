@@ -8,7 +8,7 @@ nodes), and xpath (for querying nodes). It can be used as follows:
     (use-package :cl-with-website)
     	
     (with-website (dom "http://www.google.com")
-      (xpath:evaluate "//a" dom))</code></pre>
+      (xpath:evaluate "//a" dom))
      
 I plan to slowly add features to make screen scraping even easier than
 it already is.
