@@ -1,5 +1,5 @@
 ;;;; package.lisp
 
 (defpackage #:cl-with-website
-  (:use #:cl))
-
+  (:use #:cl)
+  (:export :with-website))
